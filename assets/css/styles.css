@@ -1,0 +1,36 @@
+body {
+    background-image: url('/assets/images/dust_scratches/dust_scratches.png')
+}
+a:hover {
+background: black;
+}
+header {
+    position: static;
+}
+p {
+    padding: 0px 15px 0px 15px;
+}
+
+/* Media Queries */
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 640px and up)
+@media screen (max-width: 640px) {
+    ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen (max-width: 768px) {
+    ...
+}
+
+// Large devices (desktops, 980px and up)
+@media screen (max-width: 980px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media screen (max-width: 1200px) {
+    ...
+}
