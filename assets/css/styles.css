@@ -15,6 +15,9 @@ p {
 footer {
     max-width: auto;
 }
+.navbar {
+    max-width: 100%;
+}
 .navbar-text {
     /* position: absolute; */
     text-align: center;
