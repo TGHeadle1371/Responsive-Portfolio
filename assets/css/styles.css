@@ -8,15 +8,17 @@ background: black;
     max-width: 960px;
     margin-bottom: 25px;
     margin-top: 25px;
-
 }
 p {
     padding: 0px 15px 0px 15px;
 }
+footer {
+    max-width: auto;
+}
 .navbar-text {
     /* position: absolute; */
     text-align: center;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* Media Queries */
