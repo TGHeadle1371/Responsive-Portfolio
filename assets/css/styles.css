@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/images/dust_scratches/dust_scratches.png');
+    background-image: url("/assets/images/dust_scratches/dust_scratches.png");
 }
 a:hover {
 background: black;
