@@ -1,49 +1,65 @@
 body {
     background-image: url('../../assets/images/dust_scratches/dust_scratches.png');
 }
+
 a:hover {
-background: black;
+    background: black;
 }
+
 .container {
     max-width: 960px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
+
+h3 {
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
 p {
     padding: 0px 15px 0px 15px;
 }
+
 footer {
     max-width: auto;
 }
+
 .navbar {
     max-width: 100%;
 }
+
 .navbar-text {
     /* position: absolute; */
     text-align: center;
     max-width: 100%;
 }
 
-/* Media Queries */
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+.card {
+    border-radius: 0;
+    border: none;
+}
 
-// Small devices (landscape phones, 640px and up)
-@media screen (max-width: 640px) {
+
+// Extra small devices (portrait phones, less than 640px)
+@media (max-width: 640px) {
     ...
 }
 
-// Medium devices (tablets, 768px and up)
-@media screen (max-width: 768px) {
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
     ...
 }
 
-// Large devices (desktops, 980px and up)
-@media screen (max-width: 980px) {
+// Medium devices (tablets, less than 980px)
+@media (max-width: 980px) {
     ...
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media screen (max-width: 1200px) {
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
     ...
 }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width

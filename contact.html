@@ -4,38 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Positioning</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 
 <body>
     <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" role="navigation">
 
         <!-- Our brand / logo -->
-        <a class="navbar-brand" href="#">Thomas Headle</a>
+        <a class="navbar-brand" style="color:#ffffff;">Thomas Headle</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Collapsible button -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
+            <ul class="nav navbar-nav ml-auto">
 
                 <!-- The links of our navbar -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
 
                 <!-- a Dropdown menu 
@@ -58,7 +61,7 @@
     <br>
     <div class="container" style="margin-bottom:40px; width: 960px; height: 600px;">
         <!-- Default form contact -->
-<form class="text-center border rounded border-#cccccc p-5" style=" background: #ffffff;">
+        <form class="text-center border rounded border-#cccccc p-5" style=" background: #ffffff;">
 
             <p class="h4 mb-4">Contact</p>
 
