@@ -11,6 +11,9 @@ a:hover {
     max-width: 960px;
     margin-bottom: 25px;
     margin-top: 25px;
+    min-height: 100%;
+    padding: 50px 25px 25px 50px;
+    background-color: #ffffff;
 }
 /* h2 padding */
 h2 {
@@ -44,27 +47,3 @@ footer {
     border-radius: 0;
     border: none;
 }
-
-/* Media Queries */
-// Extra small devices (portrait phones, less than 640px)
-@media (max-width: 640px) {
-    ...
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 768px) {
-   ...
-}
-
-// Medium devices (tablets, less than 980px)
-@media (max-width: 980px) {
-    ...
-}
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199px) {
-    ...
-}
-
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
