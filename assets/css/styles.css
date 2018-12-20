@@ -30,7 +30,7 @@ p {
 }
 /* Footer width */
 footer {
-    max-width: auto;
+    max-width: 100%;
 }
 /* Navbar set width */
 .navbar {
