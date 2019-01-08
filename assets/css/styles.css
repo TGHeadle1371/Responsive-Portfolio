@@ -11,6 +11,14 @@ body {
     font-family: 'Ovo', serif;
     
 }
+
+@media screen and (max-width: 600px) {
+
+    ul#topnav li.right,
+    ul#topnav li {
+        float: none;
+    }
+}
 /* When hovering over Nav Links, turn background black */
 a:hover {
     background: black;
@@ -62,4 +70,12 @@ footer {
 .card {
     border-radius: 0;
     border: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
 }
