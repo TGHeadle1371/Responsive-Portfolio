@@ -1,12 +1,21 @@
 /* body image */
 body {
-    background-image: url('../../assets/images/dust_scratches/dust_scratches.png');
+    background-image: url('../../assets/images/dust_scratches/yosemite.jpg');
+     background-repeat: no-repeat;
+     background-position:  center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Ovo', serif;
+    
 }
 /* When hovering over Nav Links, turn background black */
 a:hover {
     background: black;
-    padding: 2px;
+    padding: 3px;
     border-radius: 5px;
+    text-decoration: none;
 }
 /* Container sizing */
 .container {
@@ -16,6 +25,7 @@ a:hover {
     min-height: 100%;
     padding: 50px 25px 25px 50px;
     background-color: #ffffff;
+    opacity: 0.8;
 }
 /* h2 padding */
 h2 {
@@ -29,6 +39,9 @@ h3 {
 /* Padding around paragraphs*/
 p {
     padding: 0px 15px 0px 15px;
+}
+li {
+    font-size: 1rem;
 }
 /* Footer width */
 footer {
