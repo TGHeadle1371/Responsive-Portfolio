@@ -5,7 +5,8 @@ body {
 /* When hovering over Nav Links, turn background black */
 a:hover {
     background: black;
-    padding: 5px;
+    padding: 2px;
+    border-radius: 5px;
 }
 /* Container sizing */
 .container {
