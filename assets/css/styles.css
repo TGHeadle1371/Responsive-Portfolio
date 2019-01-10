@@ -12,13 +12,18 @@ body {
     justify-content: center;
     
 }
-
-@media screen and (max-width: 600px) {
-
-    ul#topnav li.right,
-    ul#topnav li {
-        float: none;
-    }
+.greeting {
+    font-size: 4rem;
+    color: #fff
+    
+}
+#serve {
+    color: #fff;
+}
+#serve:hover {
+    background: none;
+    font-size: 5rem;
+    color: rgb(14, 145, 68)
 }
 /* When hovering over Nav Links, turn background black */
 a:hover {
