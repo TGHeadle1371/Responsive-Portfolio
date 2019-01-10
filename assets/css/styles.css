@@ -9,6 +9,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Ovo', serif;
+    justify-content: center;
     
 }
 
@@ -21,7 +22,7 @@ body {
 }
 /* When hovering over Nav Links, turn background black */
 a:hover {
-    background: black;
+    background: rgb(107, 103, 103);
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
@@ -35,6 +36,7 @@ a:hover {
     padding: 50px 25px 25px 50px;
     background-color: #ffffff;
     opacity: 0.8;
+    overflow: hidden;
 }
 /* h2 padding */
 h2 {
@@ -59,6 +61,8 @@ footer {
 /* Navbar set width */
 .navbar {
     max-width: 100%;
+    overflow: hidden;
+    margin: 0;
 }
 /* Center navbar Text and set width */
 .navbar-text {
