@@ -1,4 +1,4 @@
 # Responsive-Portfolio
 Homework 2
 
-View live here: http://portfolio.theadle.com/
+View live here: https://portfolio.theadle.com/
